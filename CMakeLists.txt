@@ -39,4 +39,5 @@ set_target_properties(mib-writer PROPERTIES LINKER_LANGUAGE CXX)
 
 if(true)
 add_executable (mib-writer-example mib_writer_example.cpp)
+add_executable (mib-writer-example2 mib_writer_example2.cpp)
 endif()
